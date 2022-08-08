@@ -2,16 +2,24 @@
 body {
   font-family: 'Inter', sans-serif;
 }
-
+a {
+  text-decoration: none;
+}
 ul {
   padding: 0;
 }
 
-
-.navbar {
-  max-width: 870px;
+li {
+  list-style: none;
+  padding: 0;
+}
+.container {
   width: 100%;
-  margin: auto;
+    max-width: 870px;
+      margin: auto;
+}
+.navbar {
+   
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -19,7 +27,6 @@ ul {
 
 .nav-list {
   display: flex;
-  list-style: none;
   align-items: center;
   
 }
@@ -34,4 +41,64 @@ ul {
 
 .nav-link.active {
   font-weight: 700;
+}
+
+.header {
+  padding: 70px 0;
+  display: flex;
+  align-items: center;
+}
+
+.header-text {
+  margin-left: 27px;
+}
+
+.header-strong {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+}
+
+.header-heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: -.02 ;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.header-primary {
+  color: #bf7506;
+
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+}
+
+.cv-download {
+  display: flex;
+  align-items: center;
+margin-left: 55px;
+padding: 7px 8px;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+color: #211b12;
+border-bottom: 2px solid #bf7506;
+}
+
+.cv-icon {
+  margin-right: 4px;
+}
+.social-list {
+  display: flex;
+  align-items: center;
+}
+
+.social-link {
+  display: inline-block;
+  padding: 8px;
 }

@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Eugen web developer</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <header class="header">
-    <div class="navbar">
-      <img src="img/logo.svg" alt="img: logo">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eugen web developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="navbar container">
+      <img src="img/logo.svg" alt="img: logo" />
       <nav class="navigation">
         <ul class="nav-list">
           <li class="nav-item"><a href="#" class="active nav-link">Main</a></li>
@@ -23,6 +26,51 @@
         </ul>
       </nav>
     </div>
-  </header>
-</body>
+    <header class="header container">
+      <img src="img/memoji.png" alt="memoji" class="header-photo" />
+      <div class="header-text">
+        <strong class="header-strong">Hello 👋</strong>
+        <h1 class="header-heading">
+          <span class="header-primary">I am a junior front end developer</span
+          ><br />
+          I study JavaScript with React and interesting in Python
+        </h1>
+        <div class="header-links">
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="" class="social-link"
+                ><img src="img/icons/linkedin.svg" alt="icon: linkedin" class="social-logo"
+              /></a>
+            </li>
+            <li class="social-item">
+              <a href="" class="social-link"
+                ><img src="img/icons/twitter.svg" alt="icon: twitter" class="social-logo"
+              /></a>
+            </li>
+            <li class="social-item">
+              <a href="" class="social-link"
+                ><img src="img/icons/github.svg" alt="icon: github" class="social-logo"
+              /></a>
+            </li>
+            <li class="social-item">
+              <a href="" class="social-link"
+                ><img src="img/icons/stackoverflow.svg" alt="icon: stackoverflow" class="social-logo"
+              /></a>
+            </li>
+            <li class="social-item">
+              <a href="" class="social-link"
+                ><img src="img/icons/youtube.svg" alt="icon: youtube" class="social-logo"
+              /></a>
+            </li>
+          </ul>
+          <a href="#" class="cv-download" download="">
+            <img src="img/icons/download.svg" alt="icon: download" class="cv-icon">
+            <span class="cv-text">download resume</span>
+          </a>
+        </div>
+      </div>
+      <!-- /.header-text -->
+    </header>
+    <!-- /.header -->
+  </body>
 </html>
